@@ -25,6 +25,18 @@ function Contact() {
   return (
     <div className="page">
       <h1>Contact Me</h1>
+
+      <div className="contact-info">
+        <p>Feel free to reach out for collaborations or just a friendly chat.</p>
+        <p><strong>Email:</strong> hello@alexdeveloper.com</p>
+        <p><strong>Location:</strong> San Francisco, CA</p>
+        <div className="social-links">
+          <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Twitter</a>
+        </div>
+      </div>
+
+      <hr style={{ margin: '2rem 0' }} />
+
       <form onSubmit={handleSubmit} className="contact-form">
         <div>
           <label htmlFor="name">Name:</label>
